@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS word_rus(
+   word TEXT PRIMARY KEY   
+);

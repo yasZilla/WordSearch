@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_gin_word_rus ON word_rus USING GIST (word gist_trgm_ops);
